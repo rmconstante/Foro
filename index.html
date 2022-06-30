@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>GRUPO 1</title>
+  <title>XMLHTTP</title>
 </head>
 
 <body>
@@ -20,14 +20,11 @@
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("demo").innerHTML = this.responseText;
+      document.getElementById("demo").style.backgroundColor = "skyblue";
     }
   };
   xhttp.open("GET", "xml/Recuperacion.txt", true);
   xhttp.send();
-  var texto = "adda";
-  alert(texto);
-  texto = xhttp.responseText;
-  alert(texto);
 }
 </script>
 </body>
