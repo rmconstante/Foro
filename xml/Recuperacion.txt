@@ -1,0 +1,10 @@
+Esta información ha sido recuperada de un archivo de Texto
+
+La piedra angular de AJAX es el objeto XMLHttpRequest.
+
+El objeto XMLHttpRequest
+Todos los navegadores modernos admiten el objeto XMLHttpRequest.
+
+El objeto XMLHttpRequest se puede utilizar para intercambiar datos con un 
+servidor en segundo plano. Esto significa que es posible 
+actualizar partes de una página web sin recargar toda la página.
